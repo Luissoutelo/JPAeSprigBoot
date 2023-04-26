@@ -22,11 +22,11 @@ public class User implements Serializable {
 	private String password;
 
 	public User() {
-		// TODO Auto-generated constructor stub
+	
 	}
 
 	public User(Long id, String nome, String email, String phone, String password) {
-		super();
+	
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
